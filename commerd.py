@@ -1,0 +1,1 @@
+# python3 manage.py graph_models -a -g -o arabika_erd.png
