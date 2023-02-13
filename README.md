@@ -46,7 +46,7 @@ There is a live example API for testing purposes, [available here][sandbox].
 
 # ERD Diagram 
 
-<img src="https://user-images.githubusercontent.com/72943748/193029465-52d50630-5485-4444-8e4f-119744156de9.png " width =100% > 
+<img src="https://github.com/sakilanasrinsetu/coffee_shop/blob/main/erd.png " width =100% > 
 
 
 

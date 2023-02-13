@@ -17,9 +17,7 @@ from accounts.models import *
 from rest_framework import serializers, validators
 
 
-# BASE_URL = 'http://127.0.0.1:8000/media/'
-BASE_URL = 'http://192.168.1.16:8000/media/'
-# BASE_URL = 'https://Coffeestaging.techsistltd.com/media/'
+# BASE_URL = 'http://127.0.0.1:8000/media/''
 
 
 # ..........***.......... Cafe Staff Info Start ..........***..........
