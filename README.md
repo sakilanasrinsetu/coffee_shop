@@ -1,5 +1,5 @@
 
-# **`Coffee Shop**
+# **Coffee Shop**
 
 ## [Website]()
 
@@ -46,7 +46,7 @@ There is a live example API for testing purposes, [available here][sandbox].
 
 # ERD Diagram 
 
-<img src="https://github.com/sakilanasrinsetu/coffee_shop/blob/main/erd.png " width =100% > 
+<img src="https://github.com/sakilanasrinsetu/coffee_shop/blob/main/erd.png?raw=true" width =100% > 
 
 
 
