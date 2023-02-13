@@ -1,5 +1,5 @@
 """
-ASGI config for restaurant_managment project.
+ASGI config for coffee_shop project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'restaurant_managment.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'coffee_shop.settings')
 
 application = get_asgi_application()

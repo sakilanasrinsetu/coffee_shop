@@ -1,4 +1,4 @@
-"""restaurant_managment URL Configuration
+"""coffee_shop URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.1/topics/http/urls/
@@ -29,11 +29,11 @@ from drf_yasg2 import openapi
 schema_view = get_schema_view(
    openapi.Info(
     
-      title="Arabika Cafe",
+      title="Coffee Cafe",
       default_version='v1',
       description="Test description",
       terms_of_service="https://www.google.com/policies/terms/",
-      contact=openapi.Contact(email="contact@arabika.local"),
+      contact=openapi.Contact(email="contact@Coffee.local"),
       license=openapi.License(name="BSD License"),
    ),
    public=True,

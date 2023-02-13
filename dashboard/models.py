@@ -69,10 +69,10 @@ class Blog(models.Model):
     def __str__(self):
         return self.title
 
-# ............***............ How to Arabika Work ............***............
+# ............***............ How to Coffee Work ............***............
 
 
-class ArabikaWork(models.Model):
+class CoffeeWork(models.Model):
     title = models.CharField(max_length=250)
     description = models.TextField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
@@ -82,10 +82,10 @@ class ArabikaWork(models.Model):
         return self.title
 
 
-# ............***............ Arabika History ............***............
+# ............***............ Coffee History ............***............
 
 
-class ArabikaHistory(models.Model):
+class CoffeeHistory(models.Model):
     title = models.CharField(max_length=250)
     serial_no = models.CharField(max_length=20)
     description = models.TextField(null=True, blank=True)

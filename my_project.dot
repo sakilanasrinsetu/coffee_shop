@@ -1111,11 +1111,11 @@ digraph model_graph {
       </TABLE>
       >]
   
-    dashboard_models_ArabikaWork [label=<
+    dashboard_models_CoffeeWork [label=<
       <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
       <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
       <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
-      ArabikaWork
+      CoffeeWork
       </B></FONT></TD></TR>
     
     
@@ -1161,11 +1161,11 @@ digraph model_graph {
       </TABLE>
       >]
   
-    dashboard_models_ArabikaHistory [label=<
+    dashboard_models_CoffeeHistory [label=<
       <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
       <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
       <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
-      ArabikaHistory
+      CoffeeHistory
       </B></FONT></TD></TR>
     
     

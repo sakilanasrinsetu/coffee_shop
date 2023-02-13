@@ -12,7 +12,7 @@ from django.db.models import Q
 
 # BASE_URL = 'http://127.0.0.1:8000/media/'
 # BASE_URL = 'http://192.168.20.248:8000/media/'
-BASE_URL = 'https://arabikastaging.techsistltd.com/media/'
+BASE_URL = 'https://Coffeestaging.techsistltd.com/media/'
 
 
 # ..........***.......... Customer Info Start ..........***..........

@@ -63,27 +63,27 @@ class BlogAdmin(admin.ModelAdmin):
 admin.site.register(Blog, BlogAdmin)
 
 
-# ................***...............ArabikaWork................***............
+# ................***...............CoffeeWork................***............
 
 
-class ArabikaWorkAdmin(admin.ModelAdmin):
+class CoffeeWorkAdmin(admin.ModelAdmin):
     list_display = ['id', 'title', 'created_at']
 
     class Meta:
-        model = ArabikaWork
+        model = CoffeeWork
 
-admin.site.register(ArabikaWork, ArabikaWorkAdmin)
-
-
-# ................***...............ArabikaHistory................***............
+admin.site.register(CoffeeWork, CoffeeWorkAdmin)
 
 
-class ArabikaHistoryAdmin(admin.ModelAdmin):
+# ................***...............CoffeeHistory................***............
+
+
+class CoffeeHistoryAdmin(admin.ModelAdmin):
     list_display = ['id', 'title','serial_no', 'created_at']
 
     class Meta:
-        model = ArabikaHistory
+        model = CoffeeHistory
 
-admin.site.register(ArabikaHistory, ArabikaHistoryAdmin)
+admin.site.register(CoffeeHistory, CoffeeHistoryAdmin)
 
 

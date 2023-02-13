@@ -1,5 +1,5 @@
 
-# **`Arabika Backend`**
+# **`Coffee Shop**
 
 ## [Website]()
 
@@ -17,159 +17,16 @@
 ## Frontend Technologies
  `react: ^17.0.2` `react-bootstrap: ^2.0.3` `react-router-dom: 6.1.1` `react-icons: 4.3.1` `sass: 1.45.0`
 
-### **Folder Structure**
-
 ```
-accounts
-  |-migrations
-  |  |-0001_initial.py
-  |  |-__init__.py
-  |-__init__.py
-  |-admin.py
-  |-apps.py
-  |-forms.py
-  |-models.py
-  |-tests.py
-  |-urls.py
-  |-views.py
- dashboard
-  |-migrations
-  |  |-0001_initial.py
-  |    ...
-  |  |-__init__.py
-  |-templates
-  |  |-accounts
-  |  | |-group-detail.html
-  |  | |-user-detail.html
-  |  | |-user-list.html
-  |  |-dashboard
-  |  | |-components
-  |  | | |-footer.html
-  |  | | |-notifications.html
-  |  | | |-scripts.html
-  |  | | |-sidebar.html
-  |  | | |-styles.html
-  |  | | |-topbar.html
-  |  | |-pages
-  |  | | |-job-application
-  |  | | | |-datatable.html
-  |  | | | |-list.html
-  |  | | | |-update-status.html
-  |  | | |-Message
-  |  | | | |-index.html
-  |  | |-snippets
-  |  | | |-create-form.html
-  |  | | |-create-model.html
-  |  | | |-datatable.html
-  |  | | |-delete-model.html
-  |  | | |-detail-common.html
-  |  | | |-form.html
-  |  | | |-form-script-handler.html
-  |  | | |-list-common.html
-  |  | | |-manage.html
-  |  | |-base.html
-  |  |-exceptions
-  |  | |-404.html
-  |  | |-access-denied.html
-  |  | |-blocked.html
-  |  | |-error.html
-  |  |-web_page
-  |  | |-[ Page 1 ]
-  |  | |-[ Page 2 ]
-  |  | |-...
-  |  | |-[ Page 3 ]
-  |-__init__.py
-  |-admin.py
-  |-admin_views.py
-  |-apps.py
-  |-forms.py
-  |-models.py
-  |-serializers.py
-  |-tests.py
-  |-urls.py
-  |-views.py
-  JUNK
-  |-junk.html
-  |-x.css
-  middlewares
-  |-middlewares.py
-  static
-  |-dashboard
-  | |-assets
-  | | |-css
-  | | | |-exception
-  | | | |-pages
-  | | | | |-auth.css
-  | | | |-app.css
-  | | | |-bootstrap.css
-  | | | | |-bootstrap.min.css
-  | | | |-custom.css
-  | | | |-custom_login.css
-  | | | |-login_css.css
-  | | |-images
-  | | | |-[ images 1 ]
-  | | | |- [ ... ]
-  | | | |-[ images n ]
-  | | |-js
-  | | | |- [ js 1]
-  | | | |- [ ... ]
-  | | | |- [ js n ]
-  | | |-landing
-  | | | |-[ ... ]
-  | | |-vendors
-  | | | |-[ ... ]
-  | |-ckeditor
-  | | |-[ ... ]
-  techsist_backend
-  |-templates
-  |  |-[ page 1 ]
-  |  |-[ ... ]
-  |  |-[ page N ]
-  |-__init__.py
-  |-adappter.py
-  |-asgi.py
-  |-forms.py
-  |-settings.py
-  |-urls.py
-  |-views.py
-  |-wsgi.py
-  util
-  |-migrations
-  |  |-__init__.py
-  |-templatestags
-  |  |-__init__.py
-  |  |-custom_tags.py
-  |-__init__.py
-  |-admin.py
-  |-apps.py
-  |-decorators.py
-  |-helpers.py
-  |-mixings.py
-  |-models.py
-  |-tests.py
-  |-utils.py
-  |-views.py
-  utils
-  |-custom_text.py
-  |-custom_viewset.py
-  |-helpers.py
-  |-response_wrapper.py
-  .gitignore
-  database.png
-  manage.py
-  my_project.dot
-  README.md
-  requirments.txt
-```
-# [ ARABIKA API][docs]
+# [ Coffee API][docs]
 
 [![build-status-image]][build-status]
 [![coverage-status-image]][codecov]
 [![pypi-version]][pypi]
 
-** ARABIKA APIs.**
+** Coffee APIs.**
 
-Full documentation for the project is available at https://staging.arabika.com/redoc/ 
+Full documentation for the project is available at https://staging.Coffee.com/redoc/ 
 
 
 ---
@@ -250,7 +107,7 @@ THIRD_PARTY_APPS=[
     
     
     'accounts',
-    'restaurant_managment',
+    'coffee_shop',
     'dashboard',
     'cafe',
     'knox',

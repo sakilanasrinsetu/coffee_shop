@@ -4,7 +4,7 @@ from django.db.models import JSONField
 # from softdelete.models import SoftDeleteModel
 import dashboard
 from django.contrib.auth.base_user import BaseUserManager
-from restaurant_managment.settings import TIME_ZONE
+from coffee_shop.settings import TIME_ZONE
 from django.db import models
 from cafe.models import Cafe
 from django.contrib.auth.models import AbstractUser, User, UserManager
