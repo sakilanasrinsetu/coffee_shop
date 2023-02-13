@@ -49,50 +49,6 @@ There is a live example API for testing purposes, [available here][sandbox].
 <img src="https://user-images.githubusercontent.com/72943748/193029465-52d50630-5485-4444-8e4f-119744156de9.png " width =100% > 
 
 
-----
-
-# Requirements
-
-* asgiref 3.5.2
-* certifi 2022.6.15
-* cffi==1.15.1
-* charset-normalizer==2.1.0
-* coreapi==2.3.3
-* coreschema==0.0.4
-* cryptography==37.0.4
-* defusedxml==0.7.1
-* Django==3.2.6
-* django-allauth==0.51.0
-* django-cors-headers==3.13.0
-* django-environ==0.9.0
-* django-extensions==3.2.0
-* django-widget-tweaks==1.4.12
-* djangorestframework==3.13.1
-* drf-yasg2==1.19.4
-* idna==3.3
-* inflection==0.5.1
-* itypes==1.2.0
-* Jinja2==3.1.2
-* MarkupSafe==2.1.1
-* oauthlib==3.2.0
-* packaging==21.3
-* psycopg2==2.9.3
-* pycparser==2.21
-* pygraphviz==1.10
-* PyJWT==2.4.0
-* pyparsing==3.0.9
-* python-decouple==3.6
-* python3-openid==3.2.0
-* pytz==2022.1
-* PyYAML==6.0
-* requests==2.28.1
-* requests-oauthlib==1.3.1
-* ruamel.yaml==0.17.21
-* ruamel.yaml.clib==0.2.6
-* six==1.16.0
-* sqlparse==0.4.2
-* uritemplate==4.1.1
-* urllib3==1.26.10
 
 We **highly recommend** and only officially support the latest patch release of
 each Python and Django series.
